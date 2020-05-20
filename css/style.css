@@ -143,15 +143,20 @@ a.active, .nav a:hover{
 }
 .galeria{
     position: absolute;
-    left: 100px;
+    left: 30px;
     top: 50px;
     color: white;
     font-family:inherit;
     padding: 0px 0px;
 }
+.galeria h1{
+    font-size:40px;
+    line-height: 40px;
+    margin-bottom: : 40px;
+}
 .galeria .kepek{
     width: 28%;
-    margin: 2%;
+    margin: 0.5%;
     float: left;
     
 }
