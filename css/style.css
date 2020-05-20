@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	font-weight: normal;
+}
+.background{
+	width: 100%;
+	height: 100%;
+	background-image: url(../kepek/bg01.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+}
+.nav{
+	width: 350px;
+	height: auto;
+	position: absolute;
+	top: 20%;
+	right: 0;
+}
+.nav a{
+	text-decoration:none;
+	font-size: 28px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 5px 0;
+	float: right;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	line-height: 90px;
+	text-align: center;
+	transition: 300ms;
+}
+a.active{
+	background-color: white;
+	color: black;
+}
+a.active, .nav a:hover{
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+.a{
+	width: 95%;
+}
+.b{
+	width: 85%;
+}
+.c{
+	width: 80%;
+}
+.d{
+	width: 90%;
+}
+.content{
+	position: absolute;
+	width: 1300px;
+	min-height: 500px;
+	height: auto;
+	left: 0;
+	top: 15%;
+
+}
+.content2{
+    position: absolute;
+	width: 1000px;
+	min-height: 500px;
+	height: auto;
+	left: 120px;
+	top: 15%;
+    background-color: darkgray;
+}
+.content3{
+    position: absolute;
+	width: 500px;
+	min-height: 290px;
+	height: auto;
+	left: 400px;
+	top: 25%;
+    background-color: darkgray;
+}
+.kezdolap{
+	position: absolute;;
+	left: 0;
+	bottom: 0;
+	color: black;
+	font-family:sans-serif;
+}
+.kezdolap h1{
+	font-size: 95px;
+	padding-left: 90px;
+	border-bottom: 1px solid white;
+	text-transform: uppercase;
+}
+.kezdolap h3{
+	font-size: 28px;
+	padding-left: 90px;
+	opacity: 0.6;
+}
+.rolam{
+    position: absolute;
+    left: 20px;
+    right: 200px;
+    top: 50px;
+    color: white;
+    font-family:inherit;
+    padding: 0 60px;
+}
+.rolam p{
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: : 20px;
+    
+}
+.profil{
+    position: absolute;
+    
+    right: -230px;
+    top: 45px;
+    color: white;
+    font-family:inherit;
+    padding: 0 60px;
+}
+.kapcsolat{
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    color: white;
+    font-family:inherit;
+    padding: 0 60px;
+}
+.kapcsolat .k{
+    font-size:40px;
+    line-height: 40px;
+    margin-bottom: : 40px;
+}
+.galeria{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    color: white;
+    font-family:inherit;
+    padding: 0px 0px;
+}
+.galeria .kepek{
+    width: 28%;
+    margin: 2%;
+    float: left;
+    
+}
+.kepek .img{
+    width: 100%;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    
+}
+.kepek img:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+.kapcsolat{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: white;
+    font-family:inherit;
+    padding: 0 10px;
+   
+}
+.kapcsolat p1{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: : 20px;
+}
