@@ -59,18 +59,29 @@ a.active, .nav a:hover{
 .d{
 	width: 90%;
 }
-.content{
+.content0{
 	position: absolute;
-	width: 1300px;
+	width: 80%;
 	min-height: 500px;
 	height: auto;
 	left: 0;
+   
+	top: 15%;
+
+}
+.content{
+	position: absolute;
+	width: 85%;
+	min-height: 500px;
+	height: auto;
+	left: 0;
+   
 	top: 15%;
 
 }
 .content2{
     position: absolute;
-	width: 1000px;
+	width: 65%;
 	min-height: 500px;
 	height: auto;
 	left: 120px;
@@ -79,7 +90,7 @@ a.active, .nav a:hover{
 }
 .content3{
     position: absolute;
-	width: 500px;
+	width: 30%;
 	min-height: 290px;
 	height: auto;
 	left: 400px;
